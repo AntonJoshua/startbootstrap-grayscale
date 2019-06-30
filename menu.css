@@ -15,6 +15,12 @@
           align-items: center;
   -webkit-transform: rotateX(-10deg) rotateY(20deg);
           transform: rotateX(-10deg) rotateY(20deg);
+
+}
+
+.menucontainer {
+  display: table;
+  margin: auto;
 }
 
 .Menu-list-item {
@@ -33,7 +39,7 @@
   height: 4px;
   border-radius: 4px;
   margin-top: -2px;
-  background: #FF2C75;
+  background: rgb(31, 129, 55);
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
@@ -47,7 +53,7 @@
   display: block;
   position: absolute;
   overflow: hidden;
-  color: #FF2C75;
+  color: rgb(31, 129, 55);
   top: 0;
   height: 49%;
   -webkit-transition: all 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
